@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "LoginPage";
+}
+
+<h2>LoginPage</h2>
+
+
+
+@using (Html.BeginForm("ButtonAction", "Login"))
+{
+
+<text>USER ID</text>
+@Html.TextBox("userid","")
+<br />
+<text>PASSWORD</text>
+@Html.Password("userpass","")
+<br />
+
+
+
+    <input type="submit" value="Login" />
+}
+
