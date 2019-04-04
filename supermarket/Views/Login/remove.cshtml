@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "REMOVE PRODUCT";
+}
+
+<h2>LoginPage</h2>
+
+
+
+@using (Html.BeginForm("removeAsync", "Login"))
+{
+
+    <text>PROD ID</text>
+    @Html.TextBox("prodid", "")
+    <br />
+    <text>QUANTITY</text>
+    @Html.TextBox("quantity", "")
+    <br />
+
+
+    <input id="Button1" type="button" value="remove" />
+   
+}
+

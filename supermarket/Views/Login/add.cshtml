@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "ADD PRODUCT";
+}
+
+<h2>LoginPage</h2>
+
+
+
+@using (Html.BeginForm("add", "Login"))
+{
+
+    <text>PRODUCT ID</text>
+    @Html.TextBox("prodid", "")
+    <br />
+    <text>PNAME</text>
+    @Html.TextBox("prodname", "")
+    <br />
+    <text>D.O.M</text>
+    @Html.TextBox("D.O.M", "")
+    <br />
+    <text>QUANTITY</text>
+    @Html.TextBox("Quantity", "")
+    <br />
+    <text>PRICE</text>
+    @Html.TextBox("Price", "")
+    <br />
+    <text>CATAGORY</text>
+    @Html.TextBox("Catagory", "")
+    <br />
+
+
+
+    <input type="submit" value="add" />
+}
+

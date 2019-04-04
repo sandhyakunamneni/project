@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "LoginPage";
+}
+
+<h2>LoginPage</h2>
+
+
+
+@using (Html.BeginForm("billing", "Login"))
+{
+    <input type="submit" value="Billing" />
+}
+@using (Html.BeginForm("add", "Login"))
+{
+    <input type="submit" value="add" />
+}
+@using (Html.BeginForm("remove", "Login"))
+{
+    <input type="submit" value="remove" />
+}
+@using (Html.BeginForm("showitemdetails", "Login"))
+{
+    <input type="submit" value="showitemdetails" />
+}
+

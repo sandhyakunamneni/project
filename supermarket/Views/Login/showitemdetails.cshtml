@@ -1,0 +1,25 @@
+﻿
+
+    @{
+        ViewBag.Title = "LoginPage";
+    }
+
+    <h2>LoginPage</h2>
+
+
+
+    @using (Html.BeginForm("showitemdetails", "Login"))
+    {
+
+        <text>ITEMDETAILS</text>
+        <table id="tableitems"style="width:100%;">
+            <tr><td>prodid</td><td>prodname</td><td>catagory</td>
+            
+                <td>D.O.M</td>
+                <td>price</td>
+                <td>quantity</td></tr></table>
+    }
+                @*<table style="width:100%;">
+                <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+                <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+                <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></table>*@
